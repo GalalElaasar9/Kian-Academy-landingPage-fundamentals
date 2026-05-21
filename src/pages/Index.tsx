@@ -235,7 +235,7 @@ export default function Index() {
       {/* Why Start With Programming Fundamentals? */}
       <Section className="bg-card/20">
         <div className="max-w-6xl mx-auto">
-          <SectionHeader title="Why Start With Programming Fundamentals?" subtitle="" />
+          <SectionHeader title="? Why Start With Programming Fundamentals" subtitle="" />
           <div className="grid md:grid-cols-2 gap-6 mb-14" dir="ltr">
             {[
               {
