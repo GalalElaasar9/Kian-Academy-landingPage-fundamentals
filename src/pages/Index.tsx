@@ -190,7 +190,7 @@ export default function Index() {
               className="text-[31px] md:text-7xl lg:text-[70px] font-black mb-6 leading-[1.1] tracking-tight"
               style={{ lineHeight: "1.5" }}
             >
-              <span className="text-foreground">Learn Programming From Zero To Here</span>{" "}
+              <span className="text-foreground">Learn Programming From Zero To Hero</span>{" "}
               {/* <span className="text-gradient">Data Analysis</span> */}
               {/* <br /> */}
               {/* <span className="text-foreground">من الصفر</span> */}
