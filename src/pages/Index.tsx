@@ -19,9 +19,7 @@ import subImage1 from "@/assets/Project_1/image_1.jpeg";
 import subImage2 from "@/assets/Project_1/image_2.jpeg";
 import subImage3 from "@/assets/Project_1/image_3.jpeg";
 import subImage4 from "@/assets/Project_1/image_4.jpeg";
-import subImage5 from "@/assets/Project_1/image_5.jpeg";
-import subImage6 from "@/assets/Project_1/image_6.jpeg";
-import subImage7 from "@/assets/Project_1/image_7.jpeg";
+
 
 // Project 2
 import mainImageProject_2 from "@/assets/Project_2/main-image-project_2.jpeg";
@@ -246,7 +244,8 @@ export default function Index() {
               },
               {
                 title: "Build Strong Basics",
-                desc: " أو أى مجال تانى من مجالات البرمجة Web , Mobile , AI , Cyber Security أساس قوى يخليك تدخل بعدة أى مجال زى ",
+                // desc: " أو أى مجال تانى من مجالات البرمجة Web , Mobile , AI , Cyber Security أساس قوى يخليك تدخل بعدة أى مجال زى ",
+                desc: "أساس قوى يخليك تدخل بعدة أى مجال زى الويب أو الموبايل أو الذكاء الإصطناعى أو الأمن السيبرانى أو أى مجال تانى من مجالات البرمجة",
               },
               {
                 title: "Start Your Tech Career",
