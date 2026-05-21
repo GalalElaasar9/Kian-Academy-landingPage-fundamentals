@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 
 const STAGES = [
   {
-    price: 4000,
+    price: 3500,
     duration: 24,
     message: "العرض ينتهي خلال 24 ساعة",
   },
   {
-    price: 4500,
+    price: 4000,
     duration: 48,
     message: "العرض ينتهي خلال 48 ساعة",
   },
   {
-    price: 5000,
+    price: 4500,
     duration: 72,
     message: "العرض ينتهي خلال 72 ساعة",
   },
@@ -167,7 +167,7 @@ export function CountdownTimer() {
 
             <div className="flex items-center justify-center mb-2 flex-wrap flex-col">
               <span className="text-6xl md:text-7xl font-black text-foreground line-through decoration-red-500 decoration-4">
-                8500
+                7500
               </span>
               <br />
               <span className="text-4xl md:text-5xl font-black text-red-500 mb-2">
