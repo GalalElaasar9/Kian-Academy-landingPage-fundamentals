@@ -30,7 +30,7 @@ export function CountdownTimer() {
   const [stage, setStage] = useState(0);
 
   useEffect(() => {
-    const STORAGE_KEY = "offer-start-time";
+    const STORAGE_KEY = "offer-start-time-2";
 
     let startTime = localStorage.getItem(STORAGE_KEY);
 
