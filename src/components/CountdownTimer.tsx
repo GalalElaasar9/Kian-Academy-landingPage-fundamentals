@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 
 const STAGES = [
   {
-    price: 4000,
+    price: 3500,
     duration: 24,
     message: "العرض ينتهي خلال 24 ساعة",
   },
   {
-    price: 4500,
+    price: 4000,
     duration: 48,
     message: "العرض ينتهي خلال 48 ساعة",
   },
   {
-    price: 5000,
+    price: 4500,
     duration: 0,
     message: "العرض سينتهي قريباً",
   },
