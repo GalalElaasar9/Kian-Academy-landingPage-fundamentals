@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { SubscribeButton } from "@/components/SubscribeButton";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import opinion from "@/assets/Marzouk Ismail x-2143.jpg";
 import opinion1 from "@/assets/opinion1.jpeg";
 import opinion2 from "@/assets/opinion2.jpeg";
 import opinion3 from "@/assets/opinion3.jpeg";
@@ -84,14 +85,9 @@ const courseTopics = [
 ];
 
 const testimonials = [
-  // {id: 1 , opinion: opinion1},
-  { id: 2, opinion: opinion2 },
-  { id: 3, opinion: opinion3 },
-  { id: 4, opinion: opinion4 },
-  { id: 5, opinion: opinion5 },
-  // {id: 6 , opinion: opinion6},
-  { id: 7, opinion: opinion7 },
-  { id: 8, opinion: opinion8 },
+  { name: "أحمد محمد", role: "Frontend Developer", text: "أفضل كورس اشتركت فيه! المحتوى منظم والشرح ممتاز جداً.",image:opinion },
+  { name: "سارة علي", role: "Full Stack Developer", text: "بعد الكورس قدرت أشتغل في شركة كبيرة. شكراً لكم!",image:opinion  },
+  { name: "محمود حسن", role: "Freelancer", text: "المشاريع العملية كانت رهيبة وساعدتني أبني portfolio قوي.",image:opinion  },
 ];
 
 const stats = [
@@ -355,9 +351,19 @@ export default function Index() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="bg-gradient-card backdrop-blur-sm border border-border rounded-2xl shadow-soft overflow-hidden"
+                className="bg-gradient-card backdrop-blur-sm border border-border rounded-2xl p-7 shadow-soft"
               >
-                <img src={t.opinion} alt={t.opinion} className="object-full h-98.75 w-full" />
+                <div className="text-accent text-lg mb-4 tracking-widest">★★★★★</div>
+                <p className="text-foreground/85 mb-6 leading-relaxed text-sm">"{t.text}"</p>
+                <div className="flex items-center gap-3 pt-4 border-t border-border">
+                  <div className="w-11 h-11 rounded-full overflow-hidden">
+                    <img src={t.image} alt={t.name} />
+                  </div>
+                  <div>
+                    <div className="font-bold text-foreground text-sm">{t.name}</div>
+                    <div className="text-xs text-muted-foreground">{t.role}</div>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
